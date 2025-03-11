@@ -1,15 +1,21 @@
-body {background-color: antiquewhite;}
-.box{
-    color: rgb(227, 227, 250);
-    text-align: center;
-    background-color: #476072;
-    width: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1px;
-
+body{
+    background-color: oklch(0.707 0.022 261.325);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.ele.button.button{
-    color:red;
+.ticket{
+    background-color: oklch(0.372 0.044 257.287);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.ticket:hover{
+    background-color: oklch(0.208 0.042 265.755);
 }
